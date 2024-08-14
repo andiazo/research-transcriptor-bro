@@ -60,7 +60,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center text-gray-800 p-6">
-      <h1 className="text-5xl font-extrabold text-red-600 mb-8">Transcriptor de Entrevistas</h1>
+      <h1 className="text-5xl font-extrabold text-red-600 mb-8">Transcriptor de Entrevistas Hola Sandra</h1>
 
       <div className="w-full max-w-2xl mb-4 p-6 bg-white border border-gray-800 shadow-lg">
         <label htmlFor="api-key" className="block mb-2 text-lg font-semibold">API Key de Assembly AI:</label>

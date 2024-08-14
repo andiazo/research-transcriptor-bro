@@ -92,11 +92,11 @@ export default function Home() {
           </a>.
         </p>
 
-        <label htmlFor="file-upload" className="block mt-4 mb-2 text-lg font-semibold">Subir archivo .mp3:</label>
+        <label htmlFor="file-upload" className="block mt-4 mb-2 text-lg font-semibold">Subir archivo .mp3 o mp4:</label>
         <input
           type="file"
           id="file-upload"
-          accept=".mp3"
+          accept=".mp3,.mp4"
           onChange={(e) => setFile(e.target.files[0])}
           className="w-full p-3 border border-gray-800 focus:outline-none"
         />
